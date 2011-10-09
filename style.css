@@ -1,3 +1,6 @@
+element.style{
+	
+}
 .Tela_Login{
 	margin: 0 auto;
 	width: 920px;
@@ -12,6 +15,10 @@ body{
 }
 html, body{
 	color: black;
+}
+<!-------------Estilo login----------------->
+element.style{
+	
 }
 #login{
 	width: 31em;
@@ -28,6 +35,10 @@ body {
 }
 html, body{
 	color: black;
+}
+<!---------Formatação layout login---------------->
+element.style{
+	
 }
 .login_form form{
 	
@@ -46,6 +57,24 @@ body{
 html, body{
 	color: black;
 }
+element.style {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+body {
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4;
+}
+html, body {
+   color: black;
+}  
 input[type="hidden"]{
 	display: none;
 }
@@ -65,6 +94,10 @@ input, textarea, keygen, select, button, isindex{
 }
 body{
 	line-height: 1.4;
+}
+<!---Alguma pendência---->
+element.style{
+	
 }
 .login_form h1{
 	color: white;
@@ -89,6 +122,55 @@ h1{
 body{
 	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
 	line-height: 1.4;
+}
+<!-----------H1 ok------------>
+element.style {
+}
+.login_form .formbody {
+    padding: 2em;
+    background-color: #E9F1F4;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    border-color: #E9F1F4 #D8DEE2 #D8DEE2;
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+}
+* {
+    margin: 0;
+}
+div {
+    display: block;
+}
+body {
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4;
+}
+html, body {
+    color: black;
+}
+<!------------Ok classe form body------------>
+element.style{
+	
+}
+.login_form form label, .login_form form .label, label.standard{
+	font-size: 110%;
+	color: #2F424E;
+	text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
+	display: inline-block;
+	cursor: text;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	line-height: 1.4;
+}
+<!--------Ok label login----------->
+element.style{
+	
 }
 .login_form form input.text {
 font-size: 110%;
@@ -123,21 +205,7 @@ input, textarea, keygen, select, button, isindex {
 body{
 	line-height: 1.4;
 }
-.login_form form label, .login_form form .label, label.standard{
-	font-size: 110%;
-	color: #2F424E;
-	text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
-	display: inline-block;
-	cursor: text;
-}
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
-	line-height: 1.4;
-}
+
 .login_form form input.text{
 	font-size: 110%;
 }
@@ -170,6 +238,8 @@ input, textarea, keygen, select, button, isindex {
 body{
 	line-height: 1.4;
 } 
+<!-------ok input login------------->
+
 .login_form form label, .login_form form .label, label.standard {
     font-size: 110%;
     color: #2F424E;
@@ -180,6 +250,64 @@ body{
 body {
     font: 13.34px helvetica,arial,freesans,clean,sans-serif;
     line-height: 1.4;
+}
+<!------------ok label password---------------->
+element.style {
+    width: 21em;
+}
+.login_form form input.text {
+    font-size: 110%;
+}
+.login_form form input.text, .login_form form textarea {
+    padding: 5px;
+    border: 1px solid #D8DEE2;
+    margin: .2em 0 1em 0;
+}
+input[type="text"], input[type="password"], input[type="image"], textarea {
+    font: 99% helvetica,arial,freesans,sans-serif;
+}
+input, input[type="password"], input[type="search"], isindex {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border: 2px inset;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+input, textarea, keygen, select, button, isindex {
+	letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: -webkit-auto;
+}
+body {
+    line-height: 1.4;
+}
+<!-----------ok input password------------->
+element.style {
+}
+.login_form form label, .login_form form .label, label.standard {
+    font-size: 110%;
+    color: #2F424E;
+    text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
+    display: inline-block;
+    cursor: text;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4;
+}
+<!------------ok label submit-------------------->
+element.style{
+	
 }
 .login_form form input[type="submit"] {
     display: inline-block;
@@ -229,3 +357,4 @@ input, textarea, keygen, select, button, isindex {
 body{
 	line-height: 1.4;
 }
+<!--------------ok input submit-------------------->
