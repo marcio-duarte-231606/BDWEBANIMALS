@@ -1,0 +1,231 @@
+.Tela_Login{
+	margin: 0 auto;
+	width: 920px;
+	padding: 0 15px;
+}
+div{
+	display: block;
+}
+body{
+	font: 13.34px Helvetica, Arial, clean, sans-serif;
+	line-height: 1.4;
+}
+html, body{
+	color: black;
+}
+#login{
+	width: 31em;
+}
+.login_form{
+	margin: 5em auto;
+}
+div{
+	display: block;
+}
+body {
+	font: 13.34px Helvetica, Arial, clean, sans-serif;
+	line-height: 1.4;
+}
+html, body{
+	color: black;
+}
+.login_form form{
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+form{
+	display: block;
+}
+body{
+	font: 13.34px Helvetica, Arial, clean, sans-serif;
+	line-height: 1.4;
+}
+html, body{
+	color: black;
+}
+input[type="hidden"]{
+	display: none;
+}
+input, input[type="password"], input["type="search], isindex{
+	border: 2px inset;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+input, textarea, keygen, select, button, isindex{
+	font: -webkit-small-control;
+	letter-spacing:normal;
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-align: -webkit-auto;
+}
+body{
+	line-height: 1.4;
+}
+.login_form h1{
+	color: white;
+	font-size: 16px;
+	background:(linear,left top,left bottom,from(#829AA8),to(#405A6A));
+	background-color: #405A6A;
+	bakgroung-image: (linear, 0%, 0%, 0%, 100%, from(rgb(130, 154, 1)));
+	border: 1px solid #677C89;
+	border-bottom-color: #6B808D;
+	border-radius: 3px, 3px, 0, 0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+	margin: 0;
+	padding: 8px 18px;
+}
+h1{
+	display: block;
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+body{
+	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	line-height: 1.4;
+}
+.login_form form input.text {
+font-size: 110%;
+}
+.login_form form input.text, .login_form form textarea {
+    padding: 5px;
+    border: 1px solid #D8DEE2;
+    margin: .2em 0 1em 0;
+}
+input[type="text"], input[type="password"], input[type="image"], textarea {
+    font: 99% helvetica,arial,freesans,sans-serif;
+}
+input, input[type="password"], input[type="search"], isindex {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border: 2px inset;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+input, textarea, keygen, select, button, isindex {
+    margin: 0em;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: -webkit-auto;
+}
+body{
+	line-height: 1.4;
+}
+.login_form form label, .login_form form .label, label.standard{
+	font-size: 110%;
+	color: #2F424E;
+	text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
+	display: inline-block;
+	cursor: text;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	line-height: 1.4;
+}
+.login_form form input.text{
+	font-size: 110%;
+}
+.login_form form input.text, .login_form form textarea{
+	padding: 5px;
+	border: 1px solid #D8DEE2;
+	margin: .2em 0 1em 0;
+}
+input[type="text"], input[type="password"], input[type="image"], textarea {
+    font: 99% helvetica,arial,freesans,sans-serif;
+}
+input, input[type="password"], input[type="search"], isindex {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border: 2px inset;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+input, textarea, keygen, select, button, isindex {
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: -webkit-auto;
+}   
+body{
+	line-height: 1.4;
+} 
+.login_form form label, .login_form form .label, label.standard {
+    font-size: 110%;
+    color: #2F424E;
+    text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
+    display: inline-block;
+    cursor: text;
+}
+body {
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4;
+}
+.login_form form input[type="submit"] {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    top: 1px;
+    font-family: helvetica,arial,freesans,clean,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    text-shadow: 1px 1px 0 white;
+    white-space: nowrap;
+    border: none;
+    overflow: visible;
+    background: (linear,0% 0,0% 100%,from(white),to(#E1E1E1));
+    background: (-90deg,white,#E1E1E1);
+    border-bottom: 1px solid #EBEBEB;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-left: 1px;
+    padding: 0 13px;
+    -webkit-font-smoothing: subpixel-antialiased!important;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"] ::-webkit-file-upload-button, button {
+    -webkit-box-align: center;
+    text-align: center;
+    border-box;
+}
+input[type="button"], input[type="submit"], input[type="reset"]{
+	-webkit-apearance: push-button;
+}
+input, input[type="password"], input[type="search"], isindex {
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+}
+input, textarea, keygen, select, button, isindex {
+    font: -webkit-small-control;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+}
+body{
+	line-height: 1.4;
+}
