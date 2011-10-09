@@ -21,7 +21,13 @@ element.style{
 	
 }
 #login{
-	width: 31em;
+	background: none repeat scroll #F5F5F5;
+	border: 1px solid #E5E5E5;
+	margin: 190px ;
+	width: 410px;
+	padding: 20px 25px 15px;
+	float: right;
+	
 }
 .login_form{
 	margin: 5em auto;
@@ -51,7 +57,7 @@ form{
 	display: block;
 }
 body{
-	font: 13.34px Helvetica, Arial, clean, sans-serif;
+	font: 13.34px Helvetica, Arial, sans-serif;
 	line-height: 1.4;
 }
 html, body{
@@ -68,8 +74,9 @@ element.style {
 div {
     display: block;
 }
+<!-------ok------>
 body {
-    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    font: 13.34px helvetica,arial,clean,sans-serif;
     line-height: 1.4;
 }
 html, body {
@@ -78,13 +85,13 @@ html, body {
 input[type="hidden"]{
 	display: none;
 }
-input, input[type="password"], input["type="search], isindex{
+input, input[type="password"], input[type="search"]{
 	border: 2px inset;
 	-webkit-rtl-ordering: logical;
 	-webkit-user-select: text;
 	cursor: auto;
 }
-input, textarea, keygen, select, button, isindex{
+input, textarea, keygen, select, button{
 	font: -webkit-small-control;
 	letter-spacing:normal;
 	word-spacing: normal;
@@ -104,7 +111,6 @@ element.style{
 	font-size: 16px;
 	background:(linear,left top,left bottom,from(#829AA8),to(#405A6A));
 	background-color: #405A6A;
-	bakgroung-image: (linear, 0%, 0%, 0%, 100%, from(rgb(130, 154, 1)));
 	border: 1px solid #677C89;
 	border-bottom-color: #6B808D;
 	border-radius: 3px, 3px, 0, 0;
@@ -128,13 +134,13 @@ element.style {
 }
 .login_form .formbody {
     padding: 2em;
-    background-color: #E9F1F4;
+    <!--background-color: #E9F1F4;-->
     overflow: hidden;
-    border-style: solid;
+  	border-style: solid;
     border-width: 1px 1px 2px;
     border-color: #E9F1F4 #D8DEE2 #D8DEE2;
     border-radius: 0 0 3px 3px;
-    -webkit-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;	
 }
 * {
     margin: 0;
@@ -170,7 +176,7 @@ body{
 }
 <!--------Ok label login----------->
 element.style{
-	
+	width: 21em;
 }
 .login_form form input.text {
 font-size: 110%;

@@ -17,19 +17,26 @@
    <div id="login" class="login_form">
      <form action="/session" method="post">
        <div style="margin:0; padding:0">
-           <h1>Log in</h1>
+           <h1>Login</h1>
        </div>
-        <div class="formody">
-          <label for="login">
-          <input class="email" id="login_field" name="login" style="width: 21em;" tabindex="1" type="email">
+        <div class="formbody">
+    
+        
+        <label for="login">
+           Email<br>
+          <input class="text" id="login_field" name="login" style="width: 21em;" tabindex="1" type="email">
         </label>
-        </br>
-          <input class="password" id="login_field" name="login" style="width: 21em;" tabindex="1" type="password">
+
+        <label for="password">
+          Password <a href="/sessions/forgot_password"></a>
+          <br>
+          <input class="text" id="password" name="password" style="width: 21em;" tabindex="2" type="password" value="">
+        </label>
+
         <label class="submit_btn">
-        </br>
-          <input name="commit" tabindex="3" type="submit" value="Log in">
+           <input name="commit" tabindex="3" type="submit" value="Login">
         </label>
-        </div>       
+    </div>
      </form>
    </div>
 </div>
