@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.body{
+}
+
+.banner{
+width:950px;
+height:100px;
+background-position:center;
+background-color:#006766;
+background-image:url(../imagens/aninalbanner2.jpg);
+}
+
+
+.menu{
+width:950px;
+display:table;
+background:#000000;
+}
+
+.menu ul li{
+display:inline;
+}
+
+.menu ul li a{
+background:#000000;
+color:#FFFFFF;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+padding-top:10px;
+border-right:1px solid #FFFFFF;
+text-decoration:none;
+font-size:24px;
+font-weight:bold;
+}
+
+.menu ul li a:hover{
+background-color:#006766;
+
+}
