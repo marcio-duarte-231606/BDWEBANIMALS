@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove <?php $this-> ?>s if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>Login</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	<body>
-		<div>
-			<header>
-				<h1>Login</h1>
-			</header>
-			<div class="Tela_Login">
-   <div id="login" class="login_form">
-     <form action="/session" method="post">
-       <div style="margin:0; padding:0">
-           <h1>Login</h1>
+  <head>
+	<meta charset="utf-8" />
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+    <body>
+	  <div>
+		<div class="Tela_Login">
+          <div id="login" class="login_form">
+           <form action="/session" method="post">
+             <div style="margin:0; padding:0">
+                <h1>Login</h1>
+             </div>
+              <div class="formbody">     
+                <label for="login">
+                   Email
+                   </br>
+                   <input class="text" id="login_field" name="login" style="width: 21em;" tabindex="1" type="email">
+                </label>
+                <label for="password">
+                  Senha <a href="/sessions/forgot_password"></a>
+                  </br>
+                  <input class="text" id="password" name="password" style="width: 21em;" tabindex="2" type="password" value="">
+                </label>
+                <label class="submit_btn">
+                  <input name="commit" tabindex="3" type="submit" value="Login">
+                </label>
+              </div>
+           </form>
+         </div>
        </div>
-        <div class="formbody">
-    
-        
-        <label for="login">
-           Email<br>
-          <input class="text" id="login_field" name="login" style="width: 21em;" tabindex="1" type="email">
-        </label>
-
-        <label for="password">
-          Senha <a href="/sessions/forgot_password"></a>
-          <br>
-          <input class="text" id="password" name="password" style="width: 21em;" tabindex="2" type="password" value="">
-        </label>
-
-        <label class="submit_btn">
-           <input name="commit" tabindex="3" type="submit" value="Login">
-        </label>
-    </div>
-     </form>
-   </div>
-</div>
-			<footer>
-				<p>
-					&copy; Copyright  by Túlio Rangel
-				</p>
-			</footer>
-		</div>
+	   <footer>
+	   <p>&copy; Copyright  BDWEBANIMALS by Túlio Rangel</p>
+	   </footer>
+	  </div>
 	</body>
 </html>
