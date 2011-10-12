@@ -1,24 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
-.body{
-}
-
 .banner{
-width:950px;
-height:100px;
+width:70%;
+height:150px;
 background-position:center;
 background-color:#006766;
-background-image:url(../imagens/aninalbanner2.jpg);
+background-image:url(../imagens/banner_texto_preto.jpg);
+margin-left:auto;
+margin-right:auto;
+background-repeat:no-repeat;
 }
 
 
 .menu{
-width:950px;
+width:70%;
 display:table;
 background:#000000;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
 }
 
 .menu ul li{
@@ -28,17 +29,43 @@ display:inline;
 .menu ul li a{
 background:#000000;
 color:#FFFFFF;
-padding-right:15px;
+padding-right:12px;
 padding-bottom:10px;
-padding-left:15px;
+padding-left:12px;
 padding-top:10px;
 border-right:1px solid #FFFFFF;
+border-left:1px solid #FFFFFF;
 text-decoration:none;
-font-size:24px;
+font-size:16px;
 font-weight:bold;
 }
 
 .menu ul li a:hover{
 background-color:#006766;
+font-size:20px;
+}
 
+.menu ul li a:active{
+background-color:#006766;
+}
+
+
+.corpo{
+height:auto;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+background-image:url(../imagens/abandono.jpg);
+background-repeat:no-repeat;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#FFFFFF;
+}
+
+.rodape{
+width:70%;
+margin-left:auto;
+margin-right:auto;
+height:auto;
+text-align:right;
+background-color:#006766;
 }
