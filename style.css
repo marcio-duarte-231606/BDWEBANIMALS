@@ -14,7 +14,10 @@ element.style{
     padding-top: 0px;
     width: 420px;
 
-}<!-------------Estilo login----------------->
+}
+
+<!-------------Estilo login----------------->
+
 element.style{
 	
 }
@@ -39,7 +42,7 @@ div{
 }
 body {
 
-	font: 13.34px Helvetica, Arial, clean, sans-serif;
+	font: 13.34px helvetica, arial, sans-serif;
 	line-height: 1.4;
 
 }
@@ -69,7 +72,7 @@ form{
 }
 body{
 
-	font: 13.34px Helvetica, Arial, sans-serif;
+	font: 13.34px helvetica, arial, sans-serif;
 	line-height: 1.4;
 
 }
@@ -102,7 +105,7 @@ div {
 
 body {
 
-    font: 13.34px helvetica,arial,clean,sans-serif;
+    font: 13.34px helvetica,arial, sans-serif;
     line-height: 1.4;
 
 }
@@ -130,7 +133,6 @@ input, textarea, keygen, select, button{
 	word-spacing: normal;
 	line-height: normal;
 	text-transform: none;
-	text-align: -webkit-auto;
 
 }
 
@@ -149,7 +151,7 @@ element.style{
 
 	color: white;
 	font-size: 16px;
-	background:(linear,left top,left bottom,from(#829AA8),to(#405A6A));
+	background:(left top,left bottom);
 	background-color: #405A6A;
 	border: 1px solid #677C89;
 	border-bottom-color: #6B808D;
@@ -167,7 +169,7 @@ h1{
 
 body{
 
-	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	font: 13.34px helvetica,arial,sans-serif;
 	line-height: 1.4;
 	
 }
@@ -182,7 +184,7 @@ element.style {
 
     padding: 2em;
     overflow: hidden;
-  	border-style: solid;
+    border-style: solid;
     border-width: 1px 1px 2px;
     border-color: #E9F1F4 #D8DEE2 #D8DEE2;
     border-radius: 0 0 3px 3px;
@@ -222,30 +224,30 @@ element.style{
 
 .login_form form label, .login_form form .label, label.standard{
 
-	font-size: 110%;
-	color: #2F424E;
-	display: inline-block;
-	cursor: text;
+    font-size: 110%;
+    color: #2F424E;
+    display: inline-block;
+    cursor: text;
 
 }
 
 body{
 
-	font: 13.34px helvetica,arial,sans-serif;
-	line-height: 1.4;
+    font: 13.34px helvetica,arial,sans-serif;
+    line-height: 1.4;
 
 }
 
 <!--------Ok label login----------->
 element.style{
 
-	width: 21em;
+    width: 21em;
 
 }
 
 .login_form form input.text {
 
-font-size: 110%;
+    font-size: 110%;
 
 }
 
@@ -259,7 +261,7 @@ font-size: 110%;
 
 input[type="text"], input[type="password"], input[type="image"], textarea {
 
-    font: 99% helvetica,arial,freesans,sans-serif;
+    font: 99% helvetica,arial,sans-serif;
 
 } 		
 
@@ -280,27 +282,26 @@ input, textarea, keygen, select, button, isindex {
     text-transform: none;
     text-indent: 0px;
     display: inline-block;
-    text-align: -webkit-auto;
-    
+        
 }
 
 body{
 
-	line-height: 1.4;
+    line-height: 1.4;
 
 }
 
 .login_form form input.text{
 
-	font-size: 110%;
+    font-size: 110%;
 
 }
 
 .login_form form input.text, .login_form form textarea{
 
-	padding: 5px;
-	border: 1px solid #D8DEE2;
-	margin: .2em 0 1em 0;
+    padding: 5px;
+    border: 1px solid #D8DEE2;
+    margin: .2em 0 1em 0;
 
 }
 
@@ -330,7 +331,7 @@ input, textarea, keygen, select, button, isindex {
 
 body{
 
-	line-height: 1.4;
+    line-height: 1.4;
 
 } 
 
@@ -340,7 +341,6 @@ body{
 
     font-size: 110%;
     color: #2F424E;
-    text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.1);
     display: inline-block;
     cursor: text;
 
@@ -348,7 +348,7 @@ body{
 
 body {
 
-    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    font: 13.34px helvetica,arial,sans-serif;
     line-height: 1.4;
 
 }
@@ -377,7 +377,7 @@ element.style {
 
 input[type="text"], input[type="password"], input[type="image"], textarea {
 
-    font: 99% helvetica,arial,freesans,sans-serif;
+    font: 99% helvetica,arial,sans-serif;
 
 }
 
@@ -391,7 +391,7 @@ input, input[type="password"], input[type="search"], isindex {
 
 input, textarea, keygen, select, button, isindex {
 
-	letter-spacing: normal;
+    letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-indent: 0px;
@@ -428,7 +428,7 @@ element.style {
 
 body {
 
-    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    font: 13.34px helvetica,arial,sans-serif;
     line-height: 1.4;
 
 }
@@ -451,7 +451,6 @@ element.style{
     white-space: nowrap;
     border: none;
     overflow: visible;
-    background: (linear,0% 0,0% 100%,from(white),to(#E1E1E1));
     background: (-90deg,white,#E1E1E1);
     border-bottom: 1px solid #EBEBEB;
     border-radius: 4px;
@@ -479,7 +478,7 @@ input, textarea, keygen, select, button, isindex {
 
 body{
 
-	line-height: 1.4;
+    line-height: 1.4;
 
 }
 
